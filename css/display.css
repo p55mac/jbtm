@@ -1,0 +1,101 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/* App splash */
+.wrapper-mb {
+	width: 414px;
+	height: 896px;
+	background-color: gray;
+	margin: 40px auto;
+	border-radius: 48px;
+	box-shadow: 0 0 0 16px #000;
+	display:flex;
+	align-items: center;
+}
+#app-splash-img {
+	width: 414px;
+	height: 565px;
+	overflow: hidden;
+}
+#app-splash-img img {
+	width: 584px;
+	height: auto;
+	position: relative;
+	top: -104px;
+	left: -83px;
+}
+
+
+
+/* App ad */
+.wrapper-mb-small {
+	width: 320px;
+	height: 568px;
+	align-items:flex-start;
+	padding-top: 80px;
+}
+
+.app-ad-img {
+	width: 320px;
+	height: 80px;
+}
+
+
+/* web banners */
+.wrapper-lg {
+	max-width: 1216px;
+	height: 900px;
+	background-color: gray;
+	margin: 40px auto;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+}
+.wrapper-lg.web-banner-med-rec {
+	justify-content: flex-end;
+}
+.wrapper-lg.web-banner-med-rec .web-banner-img{
+	margin-top: 200px;
+	margin-right: 100px;
+}
+
+
+/* live display */
+.wrapper-lg.live-display {
+	margin-top: 0;
+	padding: 0;
+	max-width: 1920px;
+	height: 1400px;
+	background: url('../images/JBTM_FR_LiveDisplay_1920x1400.jpg') no-repeat fixed center top ;
+	display: block;
+}
+.live-display-hd {
+	height: 100px;
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+}
+.live-display-content {
+	height: 1250px;
+	width: 1190px;
+	background: rgba(0,0,0,0.5);
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+
+/* email banner */
+.wrapper-lg.email-banner {
+	max-width: 620px;
+	height: 900px;
+}
+.email-banner-img {
+	max-width: 480px;
+}
+.email-banner-img img {
+	width: 100%;
+	height: auto;
+}
