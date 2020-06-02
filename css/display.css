@@ -3,7 +3,25 @@ body {
 	padding: 0;
 }
 
-
+.wrapper-clean {
+	padding: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.retina-preview {
+	width: 784px;
+	height: 1024px;
+}
+.retina-preview-lands {
+	width: 1024px;
+	height: 784px;
+}
+.retina-preview img,
+.retina-preview-lands img {
+	width: 100%;
+	height: auto;
+}
 
 /* App splash */
 .wrapper-mb {
@@ -28,6 +46,47 @@ body {
 	top: -104px;
 	left: -83px;
 }
+
+/* ios landscape */
+.wrapper-mb.ios-lands {
+	height: 414px;
+	width: 896px;
+	justify-content: center;
+}
+.ios-lands #app-splash-img {
+	width: 565px;
+	height: 414px;
+	overflow: hidden;
+}
+.ios-lands #app-splash-img img {
+	height: 584px;
+	width: auto;
+	position: relative;
+	left: -104px;
+	top: -83px;
+}
+
+/* android portrait */
+.wrapper-mb.android-port {
+	border-radius: 16px;
+	width: 360px;
+	height: 720px;
+}
+.android-port  #app-splash-img {
+	width: 360px;
+	height: 560px;
+	overflow: hidden;
+}
+.android-port #app-splash-img img {
+	width: 432px;
+	height: auto;
+	position: relative;
+	left: -36px;
+	top: -105px;
+}
+
+
+
 
 
 
@@ -72,6 +131,9 @@ body {
 	height: 1400px;
 	background: url('../images/JBTM_FR_LiveDisplay_1920x1400.jpg') no-repeat fixed center top ;
 	display: block;
+}
+.wrapper-lg.live-display-sm {
+	background: url('../images/JBTM_FR_LiveDisplay_1920x1400_sm.jpg') no-repeat fixed center top ;
 }
 .live-display-hd {
 	height: 100px;
